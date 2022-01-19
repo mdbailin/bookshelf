@@ -13,7 +13,6 @@ Errors are returned as JSON objects in the following format:
     "error": 404,
     "message": "Not found"
 }
-
 ```
 There are four error types the app may return when a request fails:
 - 400: Bad Request
