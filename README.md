@@ -198,7 +198,7 @@ There are four error types the app may return when a request fails:
 #### DELETE /books/{book_id}
 - General:
     - Deletes the book of the given ID if it exists. Returns the id of the deleted book, success value, total books, and book list based on the current number of books to update the frontend.
-- Sample: `curl -X DELETE http://127.0.0.1:5000/books/4'
+- Sample: `curl -X DELETE http://127.0.0.1:5000/books/4`
 
 ```
 {
